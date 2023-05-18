@@ -1,0 +1,382 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+
+    
+}
+body {
+    font-family: Arial;
+    font-size: 17px;
+    scroll-behavior: smooth;
+    background-color: rgb(217, 217, 217,.55);
+  }
+.elpage
+{
+  padding: 8px;
+}
+label{
+    font-size: 30px;
+    color: green;
+}
+.select1{
+    width: 70px;
+    height: 20px;
+    background-color: beige;
+}
+.select1:hover{
+    transition: 1s;
+    width: 140px;
+    height: 20px;
+}
+.date{
+    background-color: beige;
+    width: 140px;
+}
+ul{
+    display: inline-block ;
+}
+/*
+.img-book{
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 300px;
+}*/
+.park1{
+    border: 2px solid green;
+    width: 250px;
+    height: 300px;
+    margin-top: 90px;
+    background-image: url(img/Img1.jpg) ;
+}
+.A1{
+    width: 100%;
+    height: fit-content;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.h{
+    font-size: 40px;
+    color: green;
+    margin-left: 700px;
+}
+.h1{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.67);
+}
+.booked{
+    border-radius: 20px;
+    width: 130px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: green;}
+.booked:hover{
+    background-color: #45a049;
+    cursor: pointer;
+}
+h5{
+    color: white;
+}
+.unbooked{
+    border-radius: 20px;
+    width: 130px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: gray;
+    margin-top: 7px;
+}
+.unbooked:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.park2{
+    text-align: center;
+    margin-top: 180px;
+}
+.number-park{
+    margin-top: -100px;
+    font-size: 80px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+/*
+body {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  */
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid green;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+  .elfooter
+  {
+    position: relative;
+    top: 110px;
+  }
+  .div1
+  {
+      height: 300px;
+      width: 100%;
+      margin-bottom: 0px;
+  }
+  .footer
+  {
+      color: rgb(0, 0, 0);
+  
+  }
+  .text
+  {
+      font-size: 16px;
+      font-family: Arial;
+      font-weight: bolder;
+      padding-top: 20px;
+  }
+  .text1
+  {
+      font-size: 16px;
+      font-family: Arial;
+      font-weight: bolder;
+      padding-top: 10px;
+      padding-right: 30px;
+      text-decoration: none;
+      color: black;
+  }
+  .text2
+  {
+      font-size: 16px;
+      font-family: Arial;
+      font-weight: bolder;
+      padding-top: 10px;
+      text-decoration: none;
+      color: black;
+  }
+  .text3
+  {
+      font-size: 16px;
+      font-family: Arial;
+      font-weight: bolder;
+      padding-top: 10px;
+      padding-left: 30px;
+      text-decoration: none;
+      color: black;
+  }
+  .sora
+  {
+      margin: 20px;
+  }
+  .div3
+  {
+      color: rgb(0, 0, 0);
+  }
+  .div4
+  {
+      text-decoration: none;
+      color: black;
+  }
+  .div5
+  {
+      color: rgb(0, 0, 0);
+  }
+  .div6
+  {
+      margin-top: -5px;
+  }
+  .fa-brands
+  {
+      color: black;
+      font-size: 30px;
+      margin: 6px;
+      border-radius: 5px;
+  }
+  .mess1{
+      text-align: center;
+      font-size: 50px;
+      color: green;
+      position: relative;
+      top: 70px;
+  }
+  .mess2{
+      float: left;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      position: relative;
+      left: 400px;
+      top: 40px;
+  }
+  .divat1
+  {
+      text-decoration: none;
+      color: black;
+  }
+  .subbox{
+    background: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+      position: relative;
+      top: 280px;
+  }
+  
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 945px;
+    border-radius: 10px;
+      margin-top: -400px;
+  }
+  
+  
+  .subscribe__title {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 18px;
+  }
+  
+  .subscribe__copy {
+    max-width: 450px;
+    text-align: center;
+    margin-bottom: 53px;
+    line-height: 1.5;
+  }
+  
+  .form {
+    margin-bottom: 24px;
+  }
+  
+  .form__email {
+    padding: 20px 25px;
+    border-radius: 5px;
+     border: 1px solid #d9d9d9;
+    width: 431px;
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .form__email:focus {
+    outline: 1px solid #088c04;
+  }
+  
+  .form__button {
+    background: #088c04;
+    padding: 10px;
+    border: none;
+    width: 244px;
+    height: 65px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0 4px 4px #086405;
+  }
+  
+  .form__button:hover {
+    box-shadow: 0 10px 20px #083f06;
+  }
+  
+  .notice {
+    width: 700px;
+      margin-left: 125px;
+  }

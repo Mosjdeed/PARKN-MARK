@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="ICON.png"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Registration.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #252525;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+    
+    /* Create a right-aligned (split) link inside the navigation bar */
+    .topnav a.split {
+      float: right;
+      background-color: #088c04;
+      color: rgb(255, 255, 255);
+    } -->
+    </style>
+    </head>
+    <body>
+    
+    <!-- <div class="topnav">
+      <a class="active" href="Project.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="content.html">Our Services</a>
+      <a href="support.html">Support</a>
+      <a href="#Login" class="split">Log In</a>
+      <a href="#signup" class="split">Sign Up</a>
+    </div> -->
+
+    <form class="signup-form" action="/register" method="post">
+    </form>
+
+    <form class="signup-form" action="/register" method="post">
+
+        <form class="signup-form" action="/register" method="post">
+
+            <!-- form header -->
+            <div class="form-header">
+              <h1><i class="fa fa-sign-in" aria-hidden="true"></i> Create Account</h1>
+            </div>
+      
+            <!-- form body -->
+            <div class="form-body">
+      
+              <!-- Firstname and Lastname -->
+              <div class="horizontal-group">
+                <div class="form-group left">
+                  <label for="firstname" class="label-title"><i class="fa fa-user" aria-hidden="true"></i> First name *</label>
+                  <input type="text" id="firstname" class="form-input" placeholder="enter your first name" required="required" />
+                </div>
+                <div class="form-group right">
+                  <label for="lastname" class="label-title"><i class="fa fa-users" aria-hidden="true"></i> Last name</label>
+                  <input type="text" id="lastname" class="form-input" placeholder="enter your last name" />
+                </div>
+              </div>
+      
+              <!-- Email -->
+              <div class="form-group">
+                <label for="email" class="label-title"><i class="fa fa-envelope" aria-hidden="true"></i> Email*</label>
+                <input type="email" id="email" class="form-input" placeholder="enter your email" required="required">
+              </div>
+      
+              <!-- Passwrod and confirm password -->
+              <div class="horizontal-group">
+                <div class="form-group left">
+                  <label for="password" class="label-title"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Password *</label>
+                  <input type="password" id="password" class="form-input" placeholder="enter your password" required="required">
+                </div>
+                <div class="form-group right">
+                  <label for="confirm-password" class="label-title"><i class="fa fa-lock" aria-hidden="true"></i >   Confirm Password *</label>
+                  <input type="password" class="form-input" id="confirm-password" placeholder="enter your password again" required="required">
+                </div>
+              </div>
+      
+              <!-- Gender and Hobbies -->
+              <div class="horizontal-group">
+                <div class="form-group left">
+                  <label class="label-title">Gender:</label>
+                  <div class="input-group">
+                    <label for="male"><input type="radio" name="gender" value="male" id="male"><i class="fa fa-male" aria-hidden="true"></i>
+                        Male</label>
+                    <label for="female"><input type="radio" name="gender" value="female" id="female"> <i class="fa fa-female" aria-hidden="true"></i>
+                        Female</label>
+                  </div>
+                </div>
+                <div class="form-group right">
+                  <label class="label-title"><i class="fa fa-car" aria-hidden="true"></i> Veiahcel Type</label>
+                  <div >
+                    <label><input Type="radio" name="Veiahcel" value="Web">Car</label>
+                    <label><input Type="radio"name="Veiahcel"  value="iOS">Taxi</label>
+                    <label><input Type="radio" name="Veiahcel" value="Andriod">SUV</label>
+                    <label><input Type="radio" name="Veiahcel" value="Game">Van</label>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Source of Income and Income -->
+              <div class="horizontal-group">
+                <div class="form-group left" >
+                  <label class="label-title">Area <i class="fa fa-map-marker" aria-hidden="true"></i>  </label>
+                  <select class="form-input" id="level" >
+                    <option value="A">....</option>
+                    <option value="B">West EL Balad </option>
+                    <option value="I">Mohandeseen</option>
+                    <option value="A">Dokki</option>
+                    <option value="A">Haram</option>
+                    <option value="A">Zamalek</option>
+                    <option value="A">Manyal</option>
+                    <option value="A">Masr El gedida</option>
+                    <option value="A">Madenet Nasr</option>
+                    <option value="A">Maadi</option>
+                    <option value="A">Sheikh Zayed</option>
+                    <option value="A">Rehab</option>
+                    <option value="A">Fifth Settlement</option>
+                    <option value="A">Road El Farag</option>
+                    <option value="A">mokattam</option>
+                  </select>
+                </div>
+      
+              <!-- Profile picture and Age -->
+              
+                <div class="form-group right">
+                  <label for="experience" class="label-title">Age</label>
+                  <input type="number" min="18" max="80"  value="18" class="form-input">
+                </div>
+              </div>
+      
+    
+      
+            <!-- form-footer -->
+            <div class="form-footer">
+              <span><i class="fa fa-commenting" aria-hidden="true"></i>
+                * required</span>
+              <button type="submit" class="btn">Create</button>
+            </div>
+      
+          </form>
+      
+          <!-- Script for range input label -->
+          <script>
+            var rangeLabel = document.getElementById("range-label");
+            var experience = document.getElementById("experience");
+      
+            function change() {
+            rangeLabel.innerText = experience.value + "K";
+            }
+          </script>
+      
+    </form>
+</body>
+
+<div class="Hanin">
+
+</div>
+
+
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="ICON.png"/>
+  <script src="https://kit.fontawesome.com/632f068f85.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/632f068f85.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #000000;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+    
+    /* Create a right-aligned (split) link inside the navigation bar */
+    .topnav a.split {
+      float: right;
+      background-color: #088c04;
+      color: rgb(255, 255, 255);
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="content.html">Our Services</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html" class="split">Log In</a>
+      <a href="registration.html" class="split">Sign Up</a>
+    </div>
+<div>
+        <form class="signup-form" action="/register" method="post">
+            <!-- form header -->
+            <div class="form-header">
+              <h1><i class="fa fa-comment-o" aria-hidden="true"></i>
+                Feedback </h1>
+            </div>
+      
+            <!-- form body -->
+            <div class="form-body">
+      
+              <!-- Firstname and Lastname -->
+              <div class="horizontal-group">
+                <div class="form-group left" >
+                  <label for="firstname" class="label-title"><i class="fa fa-user" aria-hidden="true"></i> your name </label>
+                  <input type="text" id="firstname" class="form-input" placeholder="enter your first name" required="required" />
+                </div>
+              </div>
+              
+            
+              <!-- Email -->
+              <!-- <div class="horizontal-group">
+              <div class="form-group">
+                <label for="email" class="label-title"><i class="fa fa-envelope" aria-hidden="true"></i> Email*</label>
+                <input type="email" id="email" class="form-input" placeholder="enter your email" required="required">
+              </div>
+              </div> -->
+
+              <div class="horizontal-group">
+                <div class="form-group left">
+                  <label for="email" class="label-title"><i class="fa fa-envelope" aria-hidden="true"></i>  your email </label>
+                  <input type="email" id="email" class="form-input" placeholder="enter your email" required="required" />
+                </div>
+              </div>
+      
+              <!-- Passwrod and confirm password -->
+              <div class="horizontal-group">
+                <div class="form-group left">
+                  <label for="number" class="label-title"><i class="fa fa-phone" aria-hidden="true"></i> your phone number</label>
+                  <input type="text" id="number" class="form-input" placeholder="enter your number" required="required">
+                </div>
+              </div>
+
+            <!--write feedback-->
+            <div class="horizontal-group">
+                <div class="form-group left">
+                  <label for="number" class="label-title"><i class="fa fa-commenting" aria-hidden="true"></i>
+                    feedback </label>
+                  <input type="text" id="number" class="form-input" placeholder="feedback" required="required">
+                </div>
+              </div>
+              
+      
+              
+      
+            <!-- form-footer -->
+            <div class="form-footer">
+            <!-- <input type="text" class="feedback" placeholder="*feedback.." aria-hidden="true"> -->
+            <center><button type="submit" class="btn">send</button></center>
+            </div>
+        </form>
+</div>
+          <!-- Script for range input label -->
+          <script>
+            var rangeLabel = document.getElementById("range-label");
+            var experience = document.getElementById("experience");
+      
+            function change() {
+            rangeLabel.innerText = experience.value + "K";
+            }
+          </script>
+  
+  <div>
+    <footer class="Footer">
+
+      <div class="div1">
+          <div class="icons">
+              <center>
+                  <a href="https://www.facebook.com/ParkNMarkEgy"><i class="fa-brands fa-facebook-square"></i></a>
+                  <a href="https://instagram.com/ParkNMarkEg"><i class="fa-brands fa-instagram-square"></i></a>
+                  <a href="https://twitter.com/ParkNMark"><i class="fa-brands fa-twitter-square"></i></a>
+              </center>
+          </div>
+          <div class="div3">
+              <center>
+                  <img class="sora4" src="ParkNMark.png" url="">
+              </center>
+          </div>
+          <br>
+          <div class="div4">
+              <center>
+                  <div class="divat1">
+                    <a href="index.html" class="text1">Home</a>
+                    <a href="about.html" class="text2">About Us</a>
+                    <a href="content.html" class="text3">Our Services</a>
+                    <a href="contact.html" class="text3">Contact Us</a>
+                  </div>
+              </center>
+          </div>
+          <div class="div5">
+              <center>
+                  <h1 class="text">POWERED BY SCCI</h1>
+              </center>
+          </div>
+          <div class="div6">
+              <center>
+                  <img class="img2" src="app.png" url="">
+                  <img class="img2" src="google.png" url="">
+              </center>
+          </div>
+      </div>
+      <div class="subbox">
+          <div class="subscribe">
+          <h2 class="subscribe__title">Let's keep in touch</h2>
+          <p class="subscribe__copy">Subscribe to keep up with fresh news and exciting updates.<br>We promise not to spam you !</p>
+          <div class="form">
+              <input type="email" class="form__email" placeholder="Enter your email address" />
+              <button class="form__button">Send</button>
+          </div>
+          <div class="notice">
+              <input type="checkbox">
+              <span class="notice__copy">I agree to my email address being stored and uses to recieve monthly offers.</span>
+          </div>
+      </div>  
+  </footer>
+  </div>
+</body>
+</html>

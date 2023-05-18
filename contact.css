@@ -1,0 +1,294 @@
+*{
+    margin:0px;
+}
+body{
+    background-color: rgb(217, 217, 217,.55);
+    opacity: 1;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+.heading1{
+    color: green;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p1{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.btn1{
+    height: 50px;
+    width: 240px;
+    background-color: green;
+    border-radius: 20px ;
+    margin-left: 200px;
+    margin-top: 50px;
+   
+}
+button a{
+    color: rgb(223, 233, 223);
+    font-size: 20px;
+}
+.btn1:hover{
+    background-color: rgba(0, 128, 0, 0.749);
+}
+.divborder{
+    margin-left: 740px;
+    margin-top: -170px;
+}
+.border{
+    border-left: 10px solid green;
+    border-top: 10px solid green;
+    border-bottom: 10px solid green;
+    border-right: 10px solid green;
+    width: 500px;
+    margin-left: 70px;
+    padding-left:0px ;
+    height: 400px;
+}
+.pic1{
+    float:right ;
+    position: relative;
+    right: 10px;
+    top:10px;
+    width: 600px;
+    height: 400px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.logo{
+    margin-left: 300px;
+    margin-top: -80px;
+}
+
+
+.phonenumber{
+    visibility: visible;
+    animation-delay: 0.2s;
+    animation-name: fadeInUp;
+    margin-left: 500px;
+    margin-top: -100px;
+}
+.phone-link{
+    text-decoration:none;
+    color: rgba(0, 0, 0, 0.812);
+    font-size: 70px;
+}
+.email{
+    visibility: visible;
+    animation-delay: 0.4s; 
+    animation-name: fadeInUp;
+    margin-left: 540px;
+    margin-top: 10px;
+}
+.email-link{
+    text-decoration: darkgreen;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+.location{
+    visibility: visible;
+    animation-delay: 0.6s; 
+    animation-name: fadeInUp;
+    margin-left: 400px;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.812);
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+/*
+.map-link{
+    text-decoration: underline;
+    text-decoration: darkgreen;
+    color: rgb(0, 0, 0);
+}*/
+hr{
+
+    border-right: none;
+    border-left: none;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 500px;
+    color: green;
+}
+.div1
+{
+    height: 300px;
+    width: 100%;
+    padding-top: 10px;
+}
+.section1{
+    opacity: 1;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+.footer
+{
+    color: rgb(0, 0, 0);
+
+}
+.text
+{
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.text1
+{
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+.text2
+{
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bolder;
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+.text3
+{
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+.sora
+{
+    margin: 20px;
+}
+.div3
+{
+    color: rgb(0, 0, 0);
+}
+.div4
+{
+    text-decoration: none;
+    color: black;
+}
+.div5
+{
+    color: rgb(0, 0, 0);
+}
+.div6
+{
+    margin-top: -5px;
+}
+.fa-brands
+{
+    color: black;
+    font-size: 30px;
+    margin: 6px;
+    border-radius: 5px;
+}
+.mess1{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    position: relative;
+    top: 70px;
+}
+.mess2{
+    float: left;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 400px;
+    top: 40px;
+}
+.divat1
+{
+    text-decoration: none;
+    color: black;
+}
+.subbox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Mulish', sans-serif;
+    position: relative;
+    top: 280px;
+}
+
+.subscribe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 945px;
+	border-radius: 10px;
+    margin-top: -400px;
+}
+
+
+.subscribe__title {
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 18px;
+}
+
+.subscribe__copy {
+	max-width: 450px;
+	text-align: center;
+	margin-bottom: 53px;
+	line-height: 1.5;
+}
+
+.form {
+	margin-bottom: 24px;
+}
+
+.form__email {
+	padding: 20px 25px;
+	border-radius: 5px;
+ 	border: 1px solid #d9d9d9;
+	width: 431px;
+	font-size: 18px;
+	color: #000000;
+}
+
+.form__email:focus {
+	outline: 1px solid #088c04;
+}
+
+.form__button {
+	background: #088c04;
+	padding: 10px;
+	border: none;
+	width: 244px;
+	height: 65px;
+	border-radius: 5px;
+	font-size: 18px;
+	color: white;
+	box-shadow: 0 4px 4px #086405;
+}
+
+.form__button:hover {
+	box-shadow: 0 10px 20px #083f06;
+}
+
+.notice {
+	width: 700px;
+    margin-left: 125px;
+}
